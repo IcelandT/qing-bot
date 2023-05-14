@@ -1,0 +1,9 @@
+[2023-05-13 20:15:21] [WARNING]: 已开启Debug模式. 
+[2023-05-13 20:15:27] [WARNING]: Protocol -> device lock is disable. http api may fail. 
+[2023-05-13 20:24:53] [WARNING]: 转换消息 [CQ:at, qq=1185330343] 到MiraiGo Element时出现错误: strconv.ParseInt: parsing "": invalid syntax. 
+[2023-05-13 20:25:18] [WARNING]: 转换消息 [CQ:at, qq=1185330343] 到MiraiGo Element时出现错误: strconv.ParseInt: parsing "": invalid syntax. 
+[2023-05-13 20:58:54] [WARNING]: 已开启Debug模式. 
+[2023-05-13 20:59:04] [WARNING]: Protocol -> device lock is disable. http api may fail. 
+[2023-05-13 21:00:43] [WARNING]: 转换消息 [CQ:image,file=D:/Python/qingBot/db/色图/108066361_p3.png] 到MiraiGo Element时出现错误: invalid image. 
+[2023-05-13 22:32:15] [WARNING]: 已开启Debug模式. 
+[2023-05-13 22:32:20] [WARNING]: Protocol -> device lock is disable. http api may fail. 

@@ -1,0 +1,17 @@
+[2023-05-14 14:21:38] [WARNING]: 已开启Debug模式. 
+[2023-05-14 14:21:43] [WARNING]: Protocol -> device lock is disable. http api may fail. 
+[2023-05-14 17:21:35] [WARNING]: 上报 Event 数据到 http://127.0.0.1:9928/ 失败: Post "http://127.0.0.1:9928/": read tcp 127.0.0.1:60237->127.0.0.1:9928: wsarecv: An existing connection was forcibly closed by the remote host. 将进行第 1 次重试 
+[2023-05-14 20:33:24] [WARNING]: 已开启Debug模式. 
+[2023-05-14 20:33:29] [WARNING]: Protocol -> device lock is disable. http api may fail. 
+[2023-05-14 20:34:39] [WARNING]: 上报 Event 数据到 http://127.0.0.1:9928/ 失败: Post "http://127.0.0.1:9928/": context deadline exceeded (Client.Timeout exceeded while awaiting headers) 将进行第 1 次重试 
+[2023-05-14 20:34:45] [WARNING]: 上报 Event 数据到 http://127.0.0.1:9928/ 失败: Post "http://127.0.0.1:9928/": context deadline exceeded (Client.Timeout exceeded while awaiting headers) 将进行第 2 次重试 
+[2023-05-14 20:34:46] [WARNING]: 上报 Event 数据到 http://127.0.0.1:9928/ 失败: Post "http://127.0.0.1:9928/": read tcp 127.0.0.1:59932->127.0.0.1:9928: wsarecv: An existing connection was forcibly closed by the remote host. 将进行第 3 次重试 
+[2023-05-14 20:34:52] [WARNING]: 上报 Event 数据 {"post_type":"message","message_type":"group","time":1684067677,"self_id":3470944166,"sub_type":"normal","font":0,"group_id":698853061,"message_id":1638863452,"anonymous":null,"message_seq":3043,"raw_message":"更新图库","sender":{"age":0,"area":"","card":"","level":"","nickname":"Htleo","role":"owner","sex":"unknown","title":"","user_id":1185330343},"user_id":1185330343,"message":"更新图库"}
+ 到 http://127.0.0.1:9928/ 失败: Post "http://127.0.0.1:9928/": context deadline exceeded (Client.Timeout exceeded while awaiting headers) 停止上报：已达重试上限 
+[2023-05-14 21:47:19] [WARNING]: 上报 Event 数据到 http://127.0.0.1:9928/ 失败: Post "http://127.0.0.1:9928/": dial tcp 127.0.0.1:9928: connectex: No connection could be made because the target machine actively refused it. 将进行第 1 次重试 
+[2023-05-14 21:47:22] [WARNING]: 上报 Event 数据到 http://127.0.0.1:9928/ 失败: Post "http://127.0.0.1:9928/": dial tcp 127.0.0.1:9928: connectex: No connection could be made because the target machine actively refused it. 将进行第 2 次重试 
+[2023-05-14 21:47:25] [WARNING]: 上报 Event 数据到 http://127.0.0.1:9928/ 失败: Post "http://127.0.0.1:9928/": dial tcp 127.0.0.1:9928: connectex: No connection could be made because the target machine actively refused it. 将进行第 3 次重试 
+[2023-05-14 21:47:28] [WARNING]: 上报 Event 数据 {"post_type":"meta_event","meta_event_type":"heartbeat","time":1684072036,"self_id":3470944166,"status":{"app_enabled":true,"app_good":true,"app_initialized":true,"good":true,"online":true,"plugins_good":null,"stat":{"packet_received":222,"packet_sent":197,"packet_lost":0,"message_received":10,"message_sent":7,"disconnect_times":0,"lost_times":0,"last_message_time":1684071912}},"interval":5000}
+ 到 http://127.0.0.1:9928/ 失败: Post "http://127.0.0.1:9928/": dial tcp 127.0.0.1:9928: connectex: No connection could be made because the target machine actively refused it. 停止上报：已达重试上限 
+[2023-05-14 21:47:30] [WARNING]: 上报 Event 数据到 http://127.0.0.1:9928/ 失败: Post "http://127.0.0.1:9928/": dial tcp 127.0.0.1:9928: connectex: No connection could be made because the target machine actively refused it. 将进行第 1 次重试 
+[2023-05-14 21:49:38] [WARNING]: 上报 Event 数据到 http://127.0.0.1:9928/ 失败: Post "http://127.0.0.1:9928/": dial tcp 127.0.0.1:9928: connectex: No connection could be made because the target machine actively refused it. 将进行第 1 次重试 

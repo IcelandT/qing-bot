@@ -16,8 +16,9 @@ def parsel(message, qq_number, group_number=None):
         color_image.send_color_image(group_number)
     if "更新图库" in message:
         if qq_number == 1185330343:
+            tips.normal_tip(group_number, "Ice收到主人的命令: 更新图库")
             this_path = os.getcwd()
-            path = this_path + "\\tools\\" + "image_spider.py"
+            path = this_path + "\\tools\\image_spider.py"
             os.system(f"start cmd.exe /c python {path} -g {group_number}")
         else:
             tips.normal_tip(group_number, "对不起, 你没有权限这样做", qq_number)

@@ -9,6 +9,7 @@ import sqlite3
 import tips
 import argparse
 
+
 # 待爬取的id队列
 work_id_queue = queue.Queue()
 
@@ -144,7 +145,7 @@ def query_id_whether_existence(image_id):
         return False
 
 
-def download_image(group_number, download_url="https://www.pixiv.net/ajax/illust/{}/pages"):
+def download_image(download_url="https://www.pixiv.net/ajax/illust/{}/pages"):
     """
     下载图片
     :param group_number: qq群号
@@ -193,7 +194,7 @@ def crawling_images_in_the_queue(group_number):
     :return:
     """
     my_thread = list()
-    for _ in range(10):
+    for _ in range(6):
         thread = threading.Thread(target=download_image, args=(group_number, ))
         my_thread.append(thread)
         thread.start()
